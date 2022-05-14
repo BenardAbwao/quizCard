@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, Actor, Adamina;
+    max-width: 100%;
+  }
+  .part1{
+    margin:auto;
+    margin-top: 50px;
+    width: 70%;
+    border: 3px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: rgb(170, 197, 16);
+  }
+  .part1 > h{
+    color: black;
+    font-weight: bolder;
+    font-size: 35px;
+  }
+  .part2{
+    margin:auto;
+    margin-top: 50px;
+    width: 70%;
+    border: 3px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgb(170, 197, 16);
+    display:flex;
+  }
+  .left{
+    width: 40%;
+  }
+  .left > img{
+  max-width: 100%;  
+  height: auto;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .right > h , p{
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+    margin: 5px;
+  }
+  .btnstart{
+    padding: 15px 32px;
+    background-color: transparent;
+    border-color: black ;
+    border-radius: 8px;
+  }
+  .btnstart > a{
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+  }
+  .btnstart:hover {
+    background-color: orange;
+  }
