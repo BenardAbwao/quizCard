@@ -4,7 +4,7 @@ body{
     font-family: Poppins, Actor, Adamina;
     max-width: 100%;
   }
-  .part1{
+  .top{
     margin:auto;
     margin-top: 50px;
     width: 70%;
@@ -13,14 +13,14 @@ body{
     text-align: justify;
     border-radius: 8px;
   }
-  .part1 > h{
+  .top > h{
     color: black;
     font-weight: bolder;
     font-size: 35px;
   }
 
 
-  .part2{
+  .middle{
     margin:auto;
     margin-top: 50px;
     width: 70%;
@@ -30,35 +30,32 @@ body{
     display:flex;
     text-align: justify;
   }
-  .left{
-    width: 40%;
-  }
 
-  .right{
+  .middleR{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: justify;
   }
-  .right > h , p{
+  .middleR > h , p{
     font-size: 50px;
     font-weight: bolder;
     color: black;
     margin: 5px;
   }
-  .btnstart{
+  .navigation{
     padding: 15px 32px;
     background-color: blue;
     border-color: black ;
     border-radius: 8px;
   }
-  .btnstart > a{
+  .navigation > a{
     text-decoration: none;
     font-size: 25px;
     color: black;
 
 
   }
-  .btnstart:hover {
+  .navigation:hover {
     background-color: green;
   }
