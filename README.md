@@ -1,6 +1,5 @@
 # Quiz Code
  ## By Benard Abwao
-## Screenshot
 
  ## Table of Content
  - [Description](#description)
@@ -14,22 +13,19 @@
  - [Authors Info](#Authors-Info)
  ## Description
  <p>This project is an application that contains questions pertaining to coding. The questions help the programmers to gauge their understanding in the coding space</p>
-[Go Back to the top](#Quiz Card)
 
 ## Features
 As a user of the application,you will be able to :
 1. See a well detailed guidelines regarding the questions in the quiz card
 1. Get access to the questions, answer them and know your score
-[Go Back to the top](#quiz card)
 
 ## Behaviour Driven Development|
-| Behaviour      | Input        | Output       |
-| :------------- | :----------: | -----------: |
-|  Enter your name  |   Benard Abwao |     |
-| Enter your Email Address  | benard.okoth.abwao@gmail.com |   |
-| Enter your message or comment   |  I would like to inquire about something     |     |
-| Press Submit|     |Pop up "Ben , we have received your message. Thank you for reaching out to us.|
-[Go Back to the top](#Quiz Card)
+| Input        | Output       |
+| :----------: | -----------: |
+|  Read the instructions and click the button answer questions |The questions page will pop up|
+|  Click on the circles to choose answer and click next button   |You will be taken to the next question until the last one|
+|Click Submit button| You will see your score|
+
  ###  Requirements
  * Access to  a computer or any other garget
  * Access to internet
@@ -39,24 +35,18 @@ As a user of the application,you will be able to :
 * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
  ****
- [Go Back to the top](#Quiz Card)
+
 ### Live Link
 - Click this link to view the live application https://BenardAbwao.github.io/quizCard/
 ### Technology  Used
 * HTML - which was used to develop the structure of the pages.
 * CSS - which was used to style the User Interface.
 * Javascript - which was used to grade the scores
-[Go Back to the top](#delani-studio)
+
 ## Known Bugs
 * No bugs reported so far.
 ## Licence
 MIT License
 Copyright (c) [2022] [Benard Abwao]
 
-
-## Authors Info
-
-
-
-[Go Back to the top](#Quiz Card)
 
