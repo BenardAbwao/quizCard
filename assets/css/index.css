@@ -1,57 +1,68 @@
 body{
     padding: 0;
-    margin: 0;
+    background-image: url(../images/comp.jpeg);
+    margin-left: 300px;
+    opacity: 1.0;
+    background-size: cover;
+    background-color: rgb(225, 225, 225);
     font-family: Poppins, Actor, Adamina;
     max-width: 100%;
   }
   .top{
     margin:auto;
     margin-top: 50px;
-    width: 70%;
+    width: 50%;
     border: 3px;
     padding: 10px;
+    background-color: gray;
     text-align: justify;
     border-radius: 8px;
   }
-  .top > h{
+
+  .top >h2, h3 {
+    text-align: center;
+  }
+  .top > h2,h3,h6{
     color: black;
-    font-weight: bolder;
-    font-size: 35px;
+    font-weight: bold;
+    font-size: 20px;
   }
 
 
   .middle{
     margin:auto;
-    margin-top: 50px;
-    width: 70%;
+    margin-top: 60px;
+    width: 50%;
     border: 3px;
-    padding: 10px;
-    border-radius: 8px;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 10px;
     display:flex;
-    text-align: justify;
+    text-align: center;
   }
 
   .middleR{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    text-align: justify;
+    text-align: center;
+    flex-direction: column;
   }
-  .middleR > h , p{
-    font-size: 50px;
-    font-weight: bolder;
+  .middleR > h4{
+    font-size: 20px;
+    font-weight: bold;
     color: black;
     margin: 5px;
+    text-align: center;
   }
   .navigation{
-    padding: 15px 32px;
+    padding: 10px 25px;
     background-color: blue;
     border-color: black ;
     border-radius: 8px;
   }
   .navigation > a{
     text-decoration: none;
-    font-size: 25px;
+    font-size: 20px;
     color: black;
 
 
