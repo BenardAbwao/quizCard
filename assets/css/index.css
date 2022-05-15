@@ -28,6 +28,15 @@ body{
     font-size: 20px;
   }
 
+  #section{
+    background-color: oldlace;
+    border: 3px;
+    width: 50%;
+    
+    margin-left: 380px;
+    align-items: center;
+
+
 
   .middle{
     margin:auto;
