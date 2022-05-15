@@ -10,7 +10,6 @@
  - [Live Link](#Live-Link)
  - [Technology  Used](#technology-Used)
  - [Licence](#licence)
- - [Authors Info](#Authors-Info)
  ## Description
  <p>This project is an application that contains questions pertaining to coding. The questions help the programmers to gauge their understanding in the coding space</p>
 
