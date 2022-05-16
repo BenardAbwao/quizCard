@@ -12,10 +12,10 @@
         <div class="questions" style="display: block;">
             <h class="quiz-header">1.What is HTTP in full?</h>
             <div class="choices">
-                <p class="choices-list"><input type="radio" id="true" value="true" name="q1"><label>Hypertext Transfer Protocol</label></p>
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q1"><label>Hyper Transfer Protocol</label></p>
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q1"><label>Higher Technical Programme</label></p>
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q1"><label>Hypertext Technical Protocol</label></p>
+                <p><input type="radio" value="HYpertext Transfer Protocol" name="q1"><label>Hypertext Transfer Protocol</label></p>
+                <p><input type="radio" value="Hyper Transfer Protocol" name="q1"><label>Hyper Transfer Protocol</label></p>
+                <p><input type="radio" value="Higher Technology Programme" name="q1"><label>Higher Technical Programme</label></p>
+                <p><input type="radio" value="Hypertext Technical Protocol" name="q1"><label>Hypertext Technical Protocol</label></p>
             </div>
             <div class="next-previous">
                 <div class="prevbtn">
@@ -30,10 +30,10 @@
         <div class="questions">
             <h class="quiz-header">2. Which of the following is not a programming language? </h>
             <div class="choices">
-                <p class="choices-list"><input type="radio" id="true" value="true" name="q2"><label> HTML </label></p>
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q2"><label>Python</label></p>
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q2"><label>C </label></p>
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q2"><label>C++</label></p>
+                <p><input type="radio" value="HTML" name="q2"><label> HTML </label></p>
+                <p><input type="radio" value="Python" name="q2"><label>Python</label></p>
+                <p><input type="radio" value="C" name="q2"><label>C </label></p>
+                <p><input type="radio" value="C++" name="q2"><label>C++</label></p>
             </div>
             <div class="next-previous">
                 <div class="prevbtn">
@@ -48,10 +48,10 @@
         <div class="questions">
             <h class="quiz-header">3. What is the function of CSS in creating a Website? </h>
             <div class="choices">
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q3"><label> Structuring</label></p>
-                <p class="choices-list"><input type="radio" id="true" value="true" name="q3"><label> Styling</label></p>
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q3"><label> Deployment</label></p>
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q3"><label>Calculation</label></p>
+                <p><input type="radio" value="Structuring" name="q3"><label> Structuring</label></p>
+                <p><input type="radio" value="Styling" name="q3"><label> Styling</label></p>
+                <p><input type="radio" value="Deployment" name="q3"><label> Deployment</label></p>
+                <p><input type="radio" value="Calculation" name="q3"><label>Calculation</label></p>
             </div>
             <div class="next-previous">
                 <div class="prevbtn">
@@ -66,10 +66,10 @@
         <div class="questions">
             <h class="quiz-header">4. Which of the following is not a reserved word in Javascript?</h>
             <div class="choices">
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q4"><label>break</label></p>
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q4"><label> else</label></p>
-                <p class="choices-list"><input type="radio" id="true" value="true" name="q4"><label>question</label></p></label></p>
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q4"><label>private</label></p>
+                <p><input type="radio" value="break" name="q4"><label>break</label></p>
+                <p><input type="radio" value="else" name="q4"><label> else</label></p>
+                <p><input type="radio" value="question" name="q4"><label>question</label></p></label></p>
+                <p><input type="radio" value="private" name="q4"><label>private</label></p>
             </div>
             <div class="next-previous">
                 <div class="prevbtn">
@@ -84,22 +84,23 @@
         <div class="questions">
             <h class="quiz-header">5. Which of the following command line is used to create a new directory?</h>
             <div class="choices">
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q5"><label>pwd</label></p>
-                <p class="choices-list"><input type="radio" id="true" value="true" name="q5"><label> mkdir</label></p>
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q5"><label> touch</label></p>
-                <p class="choices-list"><input type="radio" id="false" value="false" name="q5"><label> cd ..</label></p>
+                <p><input type="radio" value="pwd" name="q5"><label>pwd</label></p>
+                <p><input type="radio" value="mkdir" name="q5"><label> mkdir</label></p>
+                <p><input type="radio" value="touch" name="q5"><label> touch</label></p>
+                <p><input type="radio" value="cd .." name="q5"><label> cd ..</label></p>
             </div>
             <div class="next-previous">
                 <div class="prevbtn">
                     <button onclick="prev4()">Previous</button>
                 </div>
                 <div class="nextbtn">
-                    <button class="btnstart"><a href="./js/index.js"></a> Submit</button>
+                    <button onclick="check()">Submit</button>
                 </div>
 
             </div>
         </div>
         <script src="./js/index.js"></script>
+        <script src="./js/script.js"></script>
 </body>
 
 </html>
