@@ -61,6 +61,6 @@ function prev4() {
     document.getElementsByClassName('questions')[2].style.display = "none";
     document.getElementsByClassName('questions')[3].style.display = "block";
     document.getElementsByClassName('questions')[4].style.display = "none";
-    document.getElementsByClassName('submitClass')[0].style.display ="block";
+    document.getElementsByClassName('submitClass')[0].style.display = "block";
     return false;
 }

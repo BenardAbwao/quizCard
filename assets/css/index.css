@@ -1,3 +1,7 @@
+
+@media only screen and (max-width: 600px) {
+  
+}
 body{
     padding: 0;
     background-image: url(../images/comp.jpeg);
@@ -79,3 +83,4 @@ body{
   .navigation:hover {
     background-color: green;
   }
+}
